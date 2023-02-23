@@ -1,18 +1,17 @@
-import { Text, Image, View, SafeAreaView } from "react-native";
-import Styles from "./assets/styles/HomePage";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Quiz from "./screens/Quiz";
+import HomePage from "./screens/HomePage";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <SafeAreaView style={Styles.AdroidSafeArea}>
-      <Image
-        source={{ uri: "https://picsum.photos/150/150" }}
-        style={Styles.Logo}
-      />
-      <Text>User Name</Text>
-      <View style={{ flex: 0.7, justifyContent: "center" }}>
-        <Text>Logo of the app</Text>
-      </View>
-      <Text>Tap to continue</Text>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="HomePage" component={HomePage} />
+        <Stack.Screen name="Quiz" component={Quiz} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
