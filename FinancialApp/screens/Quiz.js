@@ -1,15 +1,23 @@
-import { Text, Image, View, SafeAreaView } from "react-native";
+import { Text, Image, View, SafeAreaView, Button } from "react-native";
 
-import Styles from "../assets/styles/HomePage";
+import Styles from "../assets/styles/Quiz";
 
 export default function Quiz() {
   return (
-    <SafeAreaView style={Styles.AdroidSafeArea}>
-      <Text>User Name</Text>
-      <View style={{ flex: 0.7, justifyContent: "center" }}>
-        <Text>Logo of the app</Text>
+    <SafeAreaView style={Styles.Layout}>
+      <View style={Styles.Question}>
+        <Text style={{ fontSize: 28 }}>Question</Text>
       </View>
-      <Text>Tap to continue</Text>
+
+      <View style={Styles.Answer}>
+        <Text style={{ fontSize: 28 }}> Answer 1</Text>
+      </View>
+      <View style={Styles.Answer}>
+        <Text style={{ fontSize: 28 }}>Answer 2</Text>
+      </View>
+      <View style={Styles.Answer}>
+        <Text style={{ fontSize: 28 }}>Answer 3</Text>
+      </View>
     </SafeAreaView>
   );
 }

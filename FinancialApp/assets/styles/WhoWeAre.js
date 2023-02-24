@@ -7,7 +7,6 @@ export default StyleSheet.create({
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     flexDirection: "column",
     alignItems: "center",
-    top: "10%",
   },
 
   GroupPhoto: {

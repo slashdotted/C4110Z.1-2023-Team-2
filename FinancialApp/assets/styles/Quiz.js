@@ -9,10 +9,19 @@ export default StyleSheet.create({
     alignItems: "center",
   },
 
-  Logo: {
-    backgroundColor: "red",
-    width: 150,
-    height: 150,
-    borderRadius: 75,
+  Question: {
+    flex: 0.2,
+    top: "5%",
+  },
+
+  Answer: {
+    flex: 0.2,
+    borderColor: "black",
+    borderWidth: 1,
+    backgroundColor: "lightgray",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "60%",
+    height: 15,
   },
 });
