@@ -8,7 +8,9 @@ export default function WhoWeAre({ navigation }) {
 
       <Image source={require("../assets/1.jpg")} style={Styles.GroupPhoto} />
       <View style={{ flex: 0.2, justifyContent: "center" }}>
-        <Text>CIAO</Text>
+        <Text>
+          AGGIUNGERE UNA VIEW PER OGNI FOTO COL NOME E RIGA SOTTO OGNI FOTO
+        </Text>
       </View>
 
       <Image
@@ -42,7 +44,7 @@ export default function WhoWeAre({ navigation }) {
       />
 
       <Image
-        source={require("../assets/Guglielmo.jpeg")}
+        source={require("../assets/Walter.png")}
         resizeMode="contain"
         style={Styles.SinglePhoto}
       />

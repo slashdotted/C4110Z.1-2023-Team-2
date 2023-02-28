@@ -10,8 +10,8 @@ export default StyleSheet.create({
   },
 
   GroupPhoto: {
-    width: 300,
-    height: 200,
+    width: 200,
+    height: 100,
     borderRadius: 6,
   },
 
