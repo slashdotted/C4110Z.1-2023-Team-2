@@ -7,7 +7,7 @@ export default function WhoWeAre({ navigation }) {
       <Text> We are the Team 2</Text>
 
       <Image source={require("../assets/1.jpg")} style={Styles.GroupPhoto} />
-      <View style={{ flex: 0.2, justifyContent: "center" }}>
+      <View style={{ flex: 0.2, justifyContent: "center", width: "50%" }}>
         <Text>
           AGGIUNGERE UNA VIEW PER OGNI FOTO COL NOME E RIGA SOTTO OGNI FOTO
         </Text>
