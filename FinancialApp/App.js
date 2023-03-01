@@ -4,6 +4,7 @@ import Quiz from "./screens/Quiz";
 import HomePage from "./screens/HomePage";
 import WhoWeare from "./screens/WhoWeAre";
 import CompoundReturn from "./screens/CompoundReturn";
+import Theory from "./screens/Theory";
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -17,6 +18,7 @@ export default function App() {
         barStyle={{ backgroundColor: "blue" }}
       >
         <Tab.Screen name="HomePage" component={HomePage} />
+        <Tab.Screen name="Theory" component={Theory} />
         <Tab.Screen name="Quiz" component={Quiz} />
         <Tab.Screen name="Who We are" component={WhoWeare} />
         <Tab.Screen name="Compound Return" component={CompoundReturn} />
