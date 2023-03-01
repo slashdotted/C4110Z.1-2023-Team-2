@@ -24,4 +24,11 @@ export default StyleSheet.create({
     width: "60%",
     height: 15,
   },
+
+  boldText: {
+    fontWeight: "bold",
+    color: "blue",
+    fontSize: 28,
+    textDecorationLine: "underline",
+  },
 });

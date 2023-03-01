@@ -6,17 +6,17 @@ export default function Quiz() {
   return (
     <SafeAreaView style={Styles.Layout}>
       <View style={Styles.Question}>
-        <Text style={{ fontSize: 28 }}>Question</Text>
+        <Text style={Styles.boldText}>Question</Text>
       </View>
 
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}> Answer 1</Text>
+        <Text style={{ fontSize: 28 }}> Cos'è sta merda</Text>
       </View>
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}>Answer 2</Text>
+        <Text style={{ fontSize: 28 }}>Mi vergogno</Text>
       </View>
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}>Answer 3</Text>
+        <Text style={{ fontSize: 28 }}>Walter</Text>
       </View>
     </SafeAreaView>
   );
