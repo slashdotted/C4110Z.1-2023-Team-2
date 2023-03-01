@@ -46,6 +46,7 @@ export default StyleSheet.create({
     fontWeight: "bold",
     color: "blue",
     fontSize: 18,
+    textDecorationLine: "underline",
   },
 
   name: {

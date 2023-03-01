@@ -19,7 +19,7 @@ export default function WhoWeAre({ navigation }) {
 
         <View style={Styles.ContainerPhoto}>
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> LEEAN RUNKLE </Text>
+            <Text style={Styles.name}> LEEAN RUNKLE - PSU </Text>
             <Image
               source={require("../assets/Leeann.png")}
               style={Styles.SinglePhoto}
@@ -27,7 +27,7 @@ export default function WhoWeAre({ navigation }) {
           </View>
 
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> JON WHITBY </Text>
+            <Text style={Styles.name}> JON WHITBY - PSU </Text>
             <Image
               source={require("../assets/Jon.png")}
               style={Styles.SinglePhoto}
@@ -35,7 +35,7 @@ export default function WhoWeAre({ navigation }) {
           </View>
 
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> JADEN WEED </Text>
+            <Text style={Styles.name}> JADEN WEED - PSU </Text>
             <Image
               source={require("../assets/Jaden.png")}
               style={Styles.SinglePhoto}
@@ -43,7 +43,7 @@ export default function WhoWeAre({ navigation }) {
           </View>
 
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> NICHOLAS CERA </Text>
+            <Text style={Styles.name}> NICHOLAS CERA - PSU </Text>
             <Image
               source={require("../assets/Nicholas.png")}
               style={Styles.SinglePhoto}
@@ -51,7 +51,7 @@ export default function WhoWeAre({ navigation }) {
           </View>
 
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> GUGLIELMO GAGLIARDI </Text>
+            <Text style={Styles.name}> GUGLIELMO GAGLIARDI - SUPSI </Text>
             <Image
               source={require("../assets/Guglielmo.jpeg")}
               style={Styles.SinglePhoto}
@@ -59,7 +59,7 @@ export default function WhoWeAre({ navigation }) {
           </View>
 
           <View style={Styles.containerSinglePhoto}>
-            <Text style={Styles.name}> WALTER SOSTENE LOSA </Text>
+            <Text style={Styles.name}> WALTER SOSTENE LOSA - SUPSI </Text>
             <Image
               source={require("../assets/Walter.png")}
               style={Styles.SinglePhoto}

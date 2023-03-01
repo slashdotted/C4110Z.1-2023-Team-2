@@ -3,6 +3,7 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import Quiz from "./screens/Quiz";
 import HomePage from "./screens/HomePage";
 import WhoWeare from "./screens/WhoWeAre";
+import CompoundReturn from "./screens/CompoundReturn";
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -11,13 +12,14 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="HomePage"
-        activeColor="#e91e63"
-        inactiveColor="#3e2465"
-        barStyle={{ backgroundColor: "#f0edf6" }}
+        activeColor="darkblue"
+        inactiveColor="white"
+        barStyle={{ backgroundColor: "blue" }}
       >
         <Tab.Screen name="HomePage" component={HomePage} />
         <Tab.Screen name="Quiz" component={Quiz} />
-        <Tab.Screen name="WhoWeAre" component={WhoWeare} />
+        <Tab.Screen name="Who We are" component={WhoWeare} />
+        <Tab.Screen name="Compound Return" component={CompoundReturn} />
       </Tab.Navigator>
     </NavigationContainer>
   );
