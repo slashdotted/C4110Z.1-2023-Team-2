@@ -14,7 +14,7 @@ export default function WhoWeAre({ navigation }) {
         </View>
 
         <View style={{ alignContent: "center" }}>
-          <Text style={Styles.textScrollDown}>Scroll Down</Text>
+          <Text style={Styles.textScrollDown}>You can scroll down</Text>
         </View>
 
         <View style={Styles.ContainerPhoto}>
@@ -65,6 +65,43 @@ export default function WhoWeAre({ navigation }) {
               style={Styles.SinglePhoto}
             ></Image>
           </View>
+        </View>
+
+        <View style={Styles.containerPortfolio}>
+          <Text style={Styles.boldText}> Portfolio</Text>
+          <Image
+            source={require("../assets/2.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/3.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/4.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/5.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/6.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/7.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+          <Image
+            source={require("../assets/8.jpg")}
+            style={Styles.GroupPhotoPortfolio}
+          />
+
+          <Text style={Styles.textPortfolio}>
+            This photo was taken during the activity called "Watson Adventures"
+            in Times Square
+          </Text>
         </View>
       </SafeAreaView>
     </ScrollView>

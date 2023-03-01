@@ -18,8 +18,8 @@ export default StyleSheet.create({
 
   GroupPhoto: {
     marginTop: 2,
-    width: 200,
-    height: 100,
+    width: 250,
+    height: 130,
     borderRadius: 6,
     marginBottom: 2,
   },
@@ -29,8 +29,8 @@ export default StyleSheet.create({
   },
 
   SinglePhoto: {
-    width: 110,
-    height: 110,
+    width: 150,
+    height: 150,
     borderRadius: 20,
     marginTop: 5,
     marginBottom: 5,
@@ -57,5 +57,27 @@ export default StyleSheet.create({
   containerSinglePhoto: {
     marginBottom: 2,
     marginTop: 1,
+  },
+
+  containerPortfolio: {
+    borderTopWidth: 1,
+    borderColor: "blue",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  GroupPhotoPortfolio: {
+    marginTop: 2,
+    width: 350,
+    height: 230,
+    borderRadius: 10,
+    marginBottom: 6,
+  },
+
+  textPortfolio: {
+    textAlign: "center",
+    color: "blue",
+    fontStyle: "italic",
+    fontSize: 14,
   },
 });
