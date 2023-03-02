@@ -10,13 +10,13 @@ export default function Quiz() {
       </View>
 
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}> Cos'è sta merda</Text>
+        <Text style={{ fontSize: 28 }}>Answer 1</Text>
       </View>
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}>Mi vergogno</Text>
+        <Text style={{ fontSize: 28 }}>Answer 2</Text>
       </View>
       <View style={Styles.Answer}>
-        <Text style={{ fontSize: 28 }}>Walter</Text>
+        <Text style={{ fontSize: 28 }}>Answer 3</Text>
       </View>
     </SafeAreaView>
   );
