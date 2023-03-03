@@ -1,4 +1,4 @@
-import { Text, Image, View, SafeAreaView } from "react-native";
+import { Text, Image, View, SafeAreaView, Button } from "react-native";
 import Styles from "../assets/styles/HomePage";
 
 export default function HomePage() {

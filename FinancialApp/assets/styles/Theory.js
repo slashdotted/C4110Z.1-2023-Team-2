@@ -21,4 +21,44 @@ export default StyleSheet.create({
     marginBottom: 2,
     marginTop: 8,
   },
+
+  Paragraph: {
+    fontWeight: "bold",
+    color: "blue",
+    fontSize: 18,
+    marginTop: 10,
+  },
+
+  TextParagraph: {
+    fontWeight: "300",
+    color: "darkblue",
+    fontSize: 16,
+    marginTop: 10,
+    marginLeft: 20,
+    marginRight: 20,
+  },
+
+  UnderParagraph: {
+    fontWeight: "bold",
+    color: "blue",
+    fontSize: 16,
+  },
+
+  NumberParagraph: {
+    fontWeight: "300",
+    color: "darkblue",
+    fontSize: 14,
+    marginTop: 4,
+    marginLeft: 20,
+    marginRight: 90,
+    textAlign: "left",
+    textDecorationLine: "underline",
+    fontStyle: "italic",
+    lineHeight: 20,
+  },
+
+  Separator: {
+    borderBottomWidth: 4,
+    borderColor: "blue",
+  },
 });
