@@ -14,10 +14,6 @@ export default function WhoWeAre({ navigation }) {
           />
         </View>
 
-        <View style={{ alignContent: "center" }}>
-          <Text style={Styles.textScrollDown}>You can scroll down</Text>
-        </View>
-
         <View style={Styles.ContainerPhoto}>
           <View style={Styles.containerSinglePhoto}>
             <Text style={Styles.name}> LEEAN RUNKLE - PSU </Text>

@@ -3,6 +3,8 @@ import { StyleSheet, StatusBar, Platform } from "react-native";
 export default StyleSheet.create({
   text: {
     textAlign: "center",
+    alignContent: "center",
+    justifyContent: "center",
     alignItems: "center",
   },
 

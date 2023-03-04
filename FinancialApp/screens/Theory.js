@@ -13,13 +13,15 @@ import { NavigationContainer } from "@react-navigation/native";
 
 export default function Quiz() {
   return (
-    <ScrollView>
-      <SafeAreaView style={Styles.text}>
-        <Text style={Styles.boldText}>THEORY</Text>
-        <Image
-          source={require("../assets/theoryPart.jpg")}
-          style={Styles.GroupPhoto}
-        />
+    <SafeAreaView>
+      <ScrollView>
+        <View style={{ alignItems: "center" }}>
+          <Text style={Styles.boldText}>THEORY</Text>
+          <Image
+            source={require("../assets/theoryPart.jpg")}
+            style={Styles.GroupPhoto}
+          />
+        </View>
         <View style={Styles.Separator}>
           <Text style={Styles.Paragraph}>Compound Return</Text>
           <View>
@@ -95,7 +97,7 @@ export default function Quiz() {
           />
         </View>
         <View></View>
-      </SafeAreaView>
-    </ScrollView>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
