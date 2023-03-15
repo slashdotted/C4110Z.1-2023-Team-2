@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 export default function MenuSettings() {
   return (
     <Stack.Navigator initialRouteName="Settings">
-      <Stack.Screen name="Settings" component={SettingsMenu} />
+      <Stack.Screen name="Settings Menu" component={SettingsMenu} />
       <Stack.Screen name="WhoWeAre" component={WhoWeAre} />
     </Stack.Navigator>
   );

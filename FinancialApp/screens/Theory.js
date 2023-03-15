@@ -9,11 +9,10 @@ import {
 } from "react-native";
 
 import Styles from "../assets/styles/Theory";
-import { NavigationContainer } from "@react-navigation/native";
 
-export default function Quiz() {
+export default function Theory() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={Styles.Layout}>
       <ScrollView>
         <View style={{ alignItems: "center" }}>
           <Text style={Styles.boldText}>THEORY</Text>
