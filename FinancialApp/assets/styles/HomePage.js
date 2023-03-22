@@ -19,7 +19,7 @@ export default StyleSheet.create({
     fontWeight: "bold",
     color: "blue",
     fontSize: 18,
-    textDecorationLine: "underline",
+    paddingTop: 10,
   },
 
   name: {
@@ -35,7 +35,6 @@ export default StyleSheet.create({
   },
 
   GroupPhoto: {
-    marginTop: 2,
     width: 350,
     height: 200,
     borderRadius: 2,
