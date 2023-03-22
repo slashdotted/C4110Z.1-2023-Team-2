@@ -14,7 +14,7 @@ export default function App() {
         initialRouteName="HomePage"
         activeColor="white"
         inactiveColor="white"
-        barStyle={{ backgroundColor: "blue" }}
+        barStyle={{ backgroundColor: "#00CCCC" }}
       >
         <Tab.Screen name="HomePage" component={HomePage} />
         <Tab.Screen name="Theory" component={Theory} />

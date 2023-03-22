@@ -18,7 +18,7 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#009999",
     fontSize: 18,
     textDecorationLine: "underline",
   },
@@ -34,14 +34,14 @@ export default StyleSheet.create({
 
   Paragraph: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#009999",
     fontSize: 18,
     marginTop: 10,
   },
 
   TextParagraph: {
     fontWeight: "300",
-    color: "darkblue",
+    color: "#006650",
     fontSize: 16,
     marginTop: 10,
     marginLeft: 20,
@@ -50,13 +50,13 @@ export default StyleSheet.create({
 
   UnderParagraph: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#00CCCC",
     fontSize: 16,
   },
 
   NumberParagraph: {
     fontWeight: "300",
-    color: "darkblue",
+    color: "#0099CC",
     fontSize: 14,
     marginTop: 4,
     marginLeft: 20,
@@ -69,6 +69,6 @@ export default StyleSheet.create({
 
   Separator: {
     borderBottomWidth: 4,
-    borderColor: "blue",
+    borderColor: "#00CCCC",
   },
 });

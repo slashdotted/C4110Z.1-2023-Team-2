@@ -470,7 +470,7 @@ export default function Theory() {
             title="compound interest calculator"
             x
             onPress={() =>
-              Alert.alert("MANDARE ALLA PAGINA DEL COMPOUND RETURN")
+              Alert.alert("Send to compound interest calculator page")
             }
           />
         </View>

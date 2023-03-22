@@ -27,7 +27,7 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#009999",
     fontSize: 28,
     textDecorationLine: "underline",
   },

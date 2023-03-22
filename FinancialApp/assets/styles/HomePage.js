@@ -17,7 +17,7 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#009999",
     fontSize: 18,
     paddingTop: 10,
   },
@@ -42,12 +42,11 @@ export default StyleSheet.create({
   },
 
   ContainerPhoto: {
-    alignItems: "baseline",
+    alignItems: "center",
     width: 200,
     height: 200,
     alignContent: "center",
     justifyContent: "center",
-    alignItems: "center",
     marginTop: 100,
   },
 });
