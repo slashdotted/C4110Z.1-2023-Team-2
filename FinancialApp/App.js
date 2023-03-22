@@ -1,9 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import Quiz from "./screens/Quiz";
 import HomePage from "./screens/HomePage";
-import HomeSettings from "./screens/Settings";
 import Theory from "./screens/Theory";
+import Demo from "./screens/Demo";
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -16,10 +15,9 @@ export default function App() {
         inactiveColor="white"
         barStyle={{ backgroundColor: "#00CCCC" }}
       >
-        <Tab.Screen name="HomePage" component={HomePage} />
         <Tab.Screen name="Theory" component={Theory} />
-        <Tab.Screen name="Quiz" component={Quiz} />
-        <Tab.Screen name="Settings" component={HomeSettings} />
+        <Tab.Screen name="HomePage" component={HomePage} />
+        <Tab.Screen name="Demo" component={Demo} />
       </Tab.Navigator>
     </NavigationContainer>
   );

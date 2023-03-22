@@ -4,12 +4,16 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WhoWeAre from "./WhoWeAre";
 
 import Styles from "../assets/styles/Settings";
+import { Header } from "react-native/Libraries/NewAppScreen";
 
 const Stack = createNativeStackNavigator();
 
 export default function MenuSettings() {
   return (
-    <Stack.Navigator initialRouteName="Settings">
+    <Stack.Navigator
+      initialRouteName="Settings"
+      screenOptions={{ headerShown: false }}
+    >
       <Stack.Screen name="Settings Menu" component={SettingsMenu} />
       <Stack.Screen name="WhoWeAre" component={WhoWeAre} />
     </Stack.Navigator>

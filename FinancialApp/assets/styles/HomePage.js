@@ -49,4 +49,10 @@ export default StyleSheet.create({
     justifyContent: "center",
     marginTop: 100,
   },
+
+  SettingButton: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+  },
 });
