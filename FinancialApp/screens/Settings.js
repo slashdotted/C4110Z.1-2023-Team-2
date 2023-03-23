@@ -2,6 +2,7 @@ import { Text, SafeAreaView } from "react-native";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WhoWeAre from "./WhoWeAre";
+import DevelopmentEnvironment from "./DevelopmentEnvironment";
 
 import Styles from "../assets/styles/Settings";
 import { Header } from "react-native/Libraries/NewAppScreen";
@@ -25,6 +26,12 @@ function SettingsMenu({ navigation }) {
     <SafeAreaView style={Styles.Layout}>
       <Text style={Styles.Text} onPress={() => navigation.navigate("WhoWeAre")}>
         Credits
+      </Text>
+      <Text
+        style={Styles.Text}
+        onPress={() => navigation.navigate("DevelopmentEnvironment")}
+      >
+        DevelopmentEnvironment
       </Text>
     </SafeAreaView>
   );

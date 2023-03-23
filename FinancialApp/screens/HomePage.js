@@ -27,9 +27,11 @@ function HomePage({ navigation }) {
           style={Styles.GroupPhoto}
         ></Image>
       </View>
-      <View style={{ flex: 0.9 }}>
-        <Text style={Styles.boldText}>Name of the app</Text>
-      </View>
+
+      <Image
+        source={require("../assets/OpesName.png")}
+        style={Styles.GroupPhoto}
+      ></Image>
 
       <Button
         title="Settings"

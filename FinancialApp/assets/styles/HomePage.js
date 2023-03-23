@@ -48,11 +48,20 @@ export default StyleSheet.create({
     alignContent: "center",
     justifyContent: "center",
     marginTop: 100,
+    marginBottom: 80,
   },
 
   SettingButton: {
     position: "absolute",
     top: 0,
     right: 0,
+  },
+
+  nameApp: {
+    fontWeight: "1000",
+    fontSize: 28,
+    backgroundColor: "#00CCCC",
+    color: "white",
+    fontStyle: "italic",
   },
 });

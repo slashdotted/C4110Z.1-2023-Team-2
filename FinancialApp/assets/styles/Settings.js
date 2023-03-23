@@ -2,7 +2,7 @@ import { StyleSheet, StatusBar, Platform } from "react-native";
 
 export default StyleSheet.create({
   Layout: {
-    flex: 1,
+    flex: 0.1,
     height: "50%",
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     flexDirection: "column",
@@ -10,7 +10,11 @@ export default StyleSheet.create({
   },
 
   Text: {
+    marginTop: 6,
     top: "50%",
     fontSize: 28,
+    backgroundColor: "#00CCCC",
+    color: "white",
+    fontStyle: "italic",
   },
 });
