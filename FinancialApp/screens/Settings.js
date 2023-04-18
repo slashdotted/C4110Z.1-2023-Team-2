@@ -17,6 +17,10 @@ export default function MenuSettings() {
     >
       <Stack.Screen name="Settings Menu" component={SettingsMenu} />
       <Stack.Screen name="WhoWeAre" component={WhoWeAre} />
+      <Stack.Screen
+        name="DevelopmentEnvironment"
+        component={DevelopmentEnvironment}
+      />
     </Stack.Navigator>
   );
 }
@@ -24,6 +28,7 @@ export default function MenuSettings() {
 function SettingsMenu({ navigation }) {
   return (
     <SafeAreaView style={Styles.Layout}>
+      <Text>CIAO</Text>
       <Text style={Styles.Text} onPress={() => navigation.navigate("WhoWeAre")}>
         Credits
       </Text>

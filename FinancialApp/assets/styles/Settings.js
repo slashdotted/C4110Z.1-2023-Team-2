@@ -12,9 +12,18 @@ export default StyleSheet.create({
   Text: {
     marginTop: 6,
     top: "50%",
-    fontSize: 28,
+    fontSize: 24,
     backgroundColor: "#00CCCC",
     color: "white",
     fontStyle: "italic",
+  },
+
+  Tittle: {
+    fontWeight: "bold",
+    color: "blue",
+    fontSize: 30,
+    textDecorationLine: "underline",
+    textAlign: "center",
+    backgroundColor: "red",
   },
 });

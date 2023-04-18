@@ -6,7 +6,7 @@ export default function WhoWeAre({ navigation }) {
   return (
     <ScrollView>
       <SafeAreaView>
-        <Text> Ciao</Text>
+        <Text style={Styles.Tittle}> Ciao</Text>
       </SafeAreaView>
     </ScrollView>
   );
