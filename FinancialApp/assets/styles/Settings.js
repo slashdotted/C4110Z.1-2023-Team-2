@@ -17,13 +17,4 @@ export default StyleSheet.create({
     color: "white",
     fontStyle: "italic",
   },
-
-  Tittle: {
-    fontWeight: "bold",
-    color: "blue",
-    fontSize: 30,
-    textDecorationLine: "underline",
-    textAlign: "center",
-    backgroundColor: "red",
-  },
 });
