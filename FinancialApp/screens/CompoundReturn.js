@@ -24,7 +24,7 @@ const CompoundReturnCalculationScreen = () => {
         <Text style={Styles.MainText}>Compound Return Calculator</Text>
         <TextInput
           style={Styles.textInput}
-          placeholder="Initial capital invested"
+          placeholder="Initial capital invested ($)"
           onChangeText={(value) => setPrincipal(value)}
           keyboardType="numeric"
         />
@@ -42,14 +42,14 @@ const CompoundReturnCalculationScreen = () => {
         />
         <TextInput
           style={Styles.textInput}
-          placeholder="Compound Frequency (usually one year)"
+          placeholder="Compound Frequency (usually one Year)"
           onChangeText={(value) => setCompoundFrequency(value)}
           keyboardType="numeric"
         />
-        <Button title="Calculate" onPress={calculateCompoundReturn} />
+        <Button title="Calculate here" onPress={calculateCompoundReturn} />
         {result ? (
-          <Text style={{ fontSize: 18, marginTop: 20 }}>
-            Compound Return: {result}
+          <Text style={Styles.showResult}>
+            Compound Return (profit): {result} $
           </Text>
         ) : null}
       </View>

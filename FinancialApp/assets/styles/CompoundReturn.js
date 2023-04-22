@@ -18,8 +18,17 @@ export default StyleSheet.create({
   textInput: {
     fontSize: 18,
     fontWeight: "bold",
-    marginBottom: 50,
+    marginBottom: 30,
     borderWidth: 1,
     borderColor: "#00CCCC",
+  },
+
+  showResult: {
+    fontSize: 18,
+    color: "white",
+    marginTop: 10,
+    borderWidth: 2,
+    borderColor: "#00CCCC",
+    backgroundColor: "#00CCCC",
   },
 });
