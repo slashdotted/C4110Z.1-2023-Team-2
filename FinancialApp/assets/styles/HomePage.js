@@ -6,7 +6,6 @@ export default StyleSheet.create({
     backgroundColor: "white",
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     flexDirection: "column",
-    alignItems: "center",
   },
 
   Logo: {
@@ -17,9 +16,10 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "#009999",
-    fontSize: 18,
+    color: "#00CCCC",
+    fontSize: 19,
     paddingTop: 10,
+    textDecorationLine: "underline",
   },
 
   name: {
@@ -31,11 +31,11 @@ export default StyleSheet.create({
   extraName: {
     fontWeight: "600",
     fontSize: 15,
-    color: "blue",
+    color: "#00CCCC",
   },
 
   GroupPhoto: {
-    width: 350,
+    width: 450,
     height: 140,
     borderRadius: 2,
     marginBottom: 2,
@@ -47,12 +47,14 @@ export default StyleSheet.create({
     height: 200,
     alignContent: "center",
     justifyContent: "center",
-    marginTop: 100,
+    marginTop: 50,
     marginBottom: 80,
+    alignItems: "center",
+    marginLeft: 100,
   },
 
   SettingButton: {
-    position: "absolute",
+    position: "relative",
     top: 0,
     right: 0,
   },
@@ -63,5 +65,14 @@ export default StyleSheet.create({
     backgroundColor: "#00CCCC",
     color: "white",
     fontStyle: "italic",
+  },
+
+  button: {
+    backgroundColor: "#00CCCC",
+    borderRadius: 50,
+    height: 50,
+    width: 50,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

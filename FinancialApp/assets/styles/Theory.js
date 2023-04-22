@@ -42,6 +42,8 @@ export default StyleSheet.create({
     borderRadius: 20,
     marginBottom: 2,
     marginTop: 8,
+    borderColor: "#00CCCC",
+    borderWidth: 2,
   },
 
   Paragraph: {

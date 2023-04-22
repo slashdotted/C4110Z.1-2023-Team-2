@@ -95,8 +95,6 @@ function Theory({ navigation }) {
             onPress={() => navigation.navigate("Theory5")}
           />
         </View>
-
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
       </ScrollView>
     </SafeAreaView>
   );

@@ -1,11 +1,10 @@
-import { Text, SafeAreaView } from "react-native";
-
+import { Text, SafeAreaView, View } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WhoWeAre from "./WhoWeAre";
 import DevelopmentEnvironment from "./DevelopmentEnvironment";
+import { Image } from "react-native";
 
 import Styles from "../assets/styles/Settings";
-import { Header } from "react-native/Libraries/NewAppScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -28,7 +27,10 @@ export default function MenuSettings() {
 function SettingsMenu({ navigation }) {
   return (
     <SafeAreaView style={Styles.Layout}>
-      <Text>CIAO</Text>
+      <Image
+        source={require("../assets/gear.png")}
+        style={{ width: 50, height: 50 }}
+      />
       <Text style={Styles.Text} onPress={() => navigation.navigate("WhoWeAre")}>
         Credits
       </Text>

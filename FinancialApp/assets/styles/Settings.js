@@ -10,11 +10,19 @@ export default StyleSheet.create({
   },
 
   Text: {
-    marginTop: 6,
+    marginTop: 10,
     top: "50%",
     fontSize: 24,
-    backgroundColor: "#00CCCC",
-    color: "white",
+    color: "#00CCCC",
     fontStyle: "italic",
+  },
+
+  button: {
+    backgroundColor: "#00CCCC",
+    borderRadius: 50,
+    height: 50,
+    width: 50,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

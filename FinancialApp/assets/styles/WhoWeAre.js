@@ -13,7 +13,7 @@ export default StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderBottomWidth: 1,
-    borderColor: "blue",
+    borderColor: "#00CCCC",
   },
 
   GroupPhoto: {
@@ -22,6 +22,8 @@ export default StyleSheet.create({
     height: 130,
     borderRadius: 6,
     marginBottom: 2,
+    borderColor: "#00CCCC",
+    borderWidth: 2,
   },
 
   ContainerPhoto: {
@@ -34,6 +36,8 @@ export default StyleSheet.create({
     borderRadius: 20,
     marginTop: 5,
     marginBottom: 5,
+    borderColor: "#00CCCC",
+    borderWidth: 2,
   },
 
   textScrollDown: {
@@ -44,7 +48,7 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "blue",
+    color: "#00CCCC",
     fontSize: 18,
     textDecorationLine: "underline",
   },
@@ -52,7 +56,7 @@ export default StyleSheet.create({
   name: {
     fontWeight: "600",
     fontSize: 15,
-    color: "blue",
+    color: "#00CCCC",
   },
 
   containerSinglePhoto: {
@@ -62,7 +66,7 @@ export default StyleSheet.create({
 
   containerPortfolio: {
     borderTopWidth: 1,
-    borderColor: "blue",
+    borderColor: "#00CCCC",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -73,11 +77,13 @@ export default StyleSheet.create({
     height: 230,
     borderRadius: 10,
     marginBottom: 6,
+    borderColor: "#00CCCC",
+    borderWidth: 2,
   },
 
   textPortfolio: {
     textAlign: "center",
-    color: "blue",
+    color: "#00CCCC",
     fontStyle: "italic",
     fontSize: 14,
   },

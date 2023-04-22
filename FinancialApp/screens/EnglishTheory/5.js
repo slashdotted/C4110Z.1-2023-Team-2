@@ -9,6 +9,7 @@ import {
 } from "react-native";
 
 import Styles from "../../assets/styles/Theory";
+import CompoundReturn from "../CompoundReturn";
 
 export default function Theory({ navigation }) {
   return (
