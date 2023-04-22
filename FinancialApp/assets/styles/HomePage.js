@@ -36,7 +36,7 @@ export default StyleSheet.create({
 
   GroupPhoto: {
     width: 350,
-    height: 200,
+    height: 140,
     borderRadius: 2,
     marginBottom: 2,
   },

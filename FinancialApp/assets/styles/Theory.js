@@ -18,8 +18,20 @@ export default StyleSheet.create({
 
   boldText: {
     fontWeight: "bold",
-    color: "#009999",
+    color: "#00CCCC",
     fontSize: 18,
+    textDecorationLine: "underline",
+  },
+
+  button: {
+    color: "",
+  },
+
+  separatorTextTheory: {
+    marginTop: 10,
+    textAlign: "center",
+    color: "#00CCCC",
+    fontSize: 20,
     textDecorationLine: "underline",
   },
 

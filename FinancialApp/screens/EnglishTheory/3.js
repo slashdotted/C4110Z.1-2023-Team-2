@@ -15,7 +15,7 @@ export default function Theory({ navigation }) {
     <SafeAreaView style={Styles.Layout}>
       <ScrollView>
         <View style={{ alignItems: "center" }}>
-          <Text style={Styles.boldText}>THEORY</Text>
+          <Text style={Styles.boldText}>THEORY PART THREE</Text>
           <Image
             source={require("../../assets/theoryPart.jpg")}
             style={Styles.GroupPhoto}
