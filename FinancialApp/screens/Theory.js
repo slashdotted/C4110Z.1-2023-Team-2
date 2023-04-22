@@ -12,17 +12,20 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Styles from "../assets/styles/Theory";
 import Quiz from "./Quiz";
+import Theory1 from "./EnglishTheory/1";
+import Theory2 from "./EnglishTheory/2";
+import Theory3 from "./EnglishTheory/3";
 
 const Stack = createNativeStackNavigator();
 
 export default function TheoryMenu() {
   return (
-    <Stack.Navigator
-      initialRouteName="TheoryPage"
-      screenOptions={{ headerShown: false }}
-    >
+    <Stack.Navigator initialRouteName="TheoryPage">
       <Stack.Screen name="TheoryPage" component={Theory} />
       <Stack.Screen name="Quiz" component={Quiz} />
+      <Stack.Screen name="Theory1" component={Theory1} />
+      <Stack.Screen name="Theory2" component={Theory2} />
+      <Stack.Screen name="Theory3" component={Theory3} />
     </Stack.Navigator>
   );
 }
@@ -32,6 +35,18 @@ function Theory({ navigation }) {
     <SafeAreaView style={Styles.Layout}>
       <ScrollView>
         <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
+        <Button
+          title="Theory 1"
+          onPress={() => navigation.navigate("Theory1")}
+        />
+        <Button
+          title="Theory 2"
+          onPress={() => navigation.navigate("Theory2")}
+        />
+        <Button
+          title="Theory 3"
+          onPress={() => navigation.navigate("Theory3")}
+        />
         <View style={{ alignItems: "center" }}>
           <Text style={Styles.boldText}>THEORY</Text>
           <Image

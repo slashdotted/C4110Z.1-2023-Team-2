@@ -1,5 +1,3 @@
-import Styles from "../assets/styles/Theory";
-
 import {
   Text,
   Image,
@@ -10,30 +8,16 @@ import {
   Alert,
 } from "react-native";
 
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Styles from "../../assets/styles/Theory";
 
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
-export default function TheoryMenu() {
-  return (
-    <Stack.Navigator
-      initialRouteName="TheoryPage"
-      screenOptions={{ headerShown: false }}
-    >
-      <Stack.Screen name="TheoryPage" component={Theory} />
-      <Stack.Screen name="Quiz" component={Quiz} />
-    </Stack.Navigator>
-  );
-}
-
-function Theory({ navigation }) {
+export default function Theory({ navigation }) {
   return (
     <SafeAreaView style={Styles.Layout}>
       <ScrollView>
         <View style={{ alignItems: "center" }}>
           <Text style={Styles.boldText}>THEORY</Text>
           <Image
-            source={require("../assets/theoryPart.jpg")}
+            source={require("../../assets/theoryPart.jpg")}
             style={Styles.GroupPhoto}
           />
         </View>
