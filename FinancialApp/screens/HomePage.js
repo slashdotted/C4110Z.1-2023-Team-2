@@ -4,6 +4,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Styles from "../assets/styles/HomePage";
 import HomeSettings from "./Settings";
 import Theory from "./Theory";
+import TheoryItalian from "./TheoryItalian";
+import CompoundReturn from "./CompoundReturn";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,6 +18,8 @@ export default function HomePageMenu() {
       <Stack.Screen name="HomePage" component={HomePage} />
       <Stack.Screen name="HomeSettings" component={HomeSettings} />
       <Stack.Screen name="Theory" component={Theory} />
+      <Stack.Screen name="TheoryItalian" component={TheoryItalian} />
+      <Stack.Screen name="CompoundReturn" component={CompoundReturn} />
     </Stack.Navigator>
   );
 }
@@ -46,13 +50,19 @@ function HomePage({ navigation }) {
         title="Italiano"
         color="#00CCCC"
         style={Styles.SettingButton}
-        onPress={() => navigation.navigate("HomeSettings")}
+        onPress={() => navigation.navigate("TheoryItalian")}
       ></Button>
       <Button
         title="English"
         color="#00CCCC"
         style={Styles.SettingButton}
         onPress={() => navigation.navigate("Theory")}
+      ></Button>
+      <Button
+        title="Compound Return"
+        color="#00CCCC"
+        style={Styles.SettingButton}
+        onPress={() => navigation.navigate("CompoundReturn")}
       ></Button>
     </SafeAreaView>
   );

@@ -1,6 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import Theory from "./screens/Theory";
 import Demo from "./screens/Demo";
 import HomePageMenu from "./screens/HomePage";
 
@@ -15,7 +14,6 @@ export default function App() {
         inactiveColor="white"
         barStyle={{ backgroundColor: "#00CCCC" }}
       >
-        <Tab.Screen name="Theory" component={Theory} />
         <Tab.Screen name="Homepage" component={HomePageMenu} />
         <Tab.Screen name="Demo" component={Demo} />
       </Tab.Navigator>
