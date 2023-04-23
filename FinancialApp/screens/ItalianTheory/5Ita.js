@@ -22,73 +22,76 @@ export default function Theory({ navigation }) {
           />
         </View>
         <View style={Styles.Separator}>
-          <Text style={Styles.Paragraph}>Compound Return</Text>
+          <Text style={Styles.Paragraph}>Rendimento composto</Text>
           <View>
             <Text style={Styles.TextParagraph}>
-              Compound return refers to the return earned on an investment over
-              a period of time, taking into account the reinvestment of any
-              interest, dividends, or other earnings. In other words, the
-              compound return is the growth rate of an investment that includes
-              both the principal and any interest or dividends earned on that
-              principal. Compound return is important to consider when
-              evaluating the performance of an investment, as it reflects the
-              overall growth of the investment over time, rather than just its
-              initial value. It can also be used to compare the performance of
-              different investments with varying rates of return and compounding
-              frequencies.
+              Il rendimento composto si riferisce al rendimento ottenuto da un
+              investimento nell'arco di un un periodo di tempo, tenendo conto
+              del reinvestimento di interessi, dividendi o altri guadagni. In
+              altre parole, il rendimento composto è il tasso di crescita di un
+              investimento che comprende sia il capitale che gli interessi o i
+              dividendi maturati su tale capitale. capitale. Il rendimento
+              composto è importante da considerare quando di un investimento, in
+              quanto riflette la crescita complessiva dell'investimento nel
+              tempo, piuttosto che la sola crescita complessiva
+              dell'investimento nel tempo, piuttosto che il solo valore
+              iniziale.Può anche essere utilizzato per confrontare la
+              performance di investimenti con tassi di rendimento e frequenze di
+              capitalizzazione diversi. frequenze..
             </Text>
-            <Text style={Styles.UnderParagraph}>Example:</Text>
+            <Text style={Styles.UnderParagraph}>Esempio:</Text>
             <Text style={Styles.TextParagraph}>
-              Let's say you invest $10,000 in a stock that has an annual return
-              of 8% for 5 years. The compound return can be calculated as
-              follows:
+              Supponiamo di investire 10.000 dollari in un'azione che ha un
+              rendimento annuo dell'8% per 5 anni. Il rendimento composto può
+              essere calcolato come come segue:
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Year 1: $10,000 x (1 + 0.08) = $10,800
+              Anno 1: $10,000 x (1 + 0.08) = $10,800
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Year 2: $10,800 x (1 + 0.08) = $11,664
+              Anno 2: $10,800 x (1 + 0.08) = $11,664
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Year 3: $11,664 x (1 + 0.08) = $12,597.12
+              Anno 3: $11,664 x (1 + 0.08) = $12,597.12
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Year 4: $12,597.12 x (1 + 0.08) = $13,601.15
+              Anno 4: $12,597.12 x (1 + 0.08) = $13,601.15
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Year 5: $13,601.15 x (1 + 0.08) = $14,678.60
-            </Text>
-            <Text style={Styles.TextParagraph}>
-              The total value of the investment after 5 years is $14,678.60. To
-              calculate the compound return, we can use the following formula:
-            </Text>
-            <Text style={Styles.NumberParagraph}>
-              Compound Return = (Final Value / Initial Value)^(1 / Number of
-              Years) - 1
+              Anno 5: $13,601.15 x (1 + 0.08) = $14,678.60
             </Text>
             <Text style={Styles.TextParagraph}>
-              In this case, the initial value is $10,000, the final value is
-              $14,678.60, and the number of years is 5. Plugging these values
-              into the formula, we get:
+              Il valore totale dell'investimento dopo 5 anni è di 14.678,60
+              dollari. Per calcolare il rendimento composto, possiamo utilizzare
+              la seguente formula:
             </Text>
             <Text style={Styles.NumberParagraph}>
-              Compound Return = ($14,678.60 / $10,000)^(1 / 5) - 1 = 0.126 =
+              Rendimento composto = (Valore finale/Valore iniziale)^(1 / Numero
+              di anni)
+            </Text>
+            <Text style={Styles.TextParagraph}>
+              In questo caso, il valore iniziale è di 10.000 dollari, il valore
+              finale è di 14.678,60 dollari e il numero di anni è 5. Inserendo
+              questi valori nella formula si ottiene:
+            </Text>
+            <Text style={Styles.NumberParagraph}>
+              Rendimento composto = ($14,678.60 / $10,000)^(1 / 5) - 1 = 0.126 =
               12.6%
             </Text>
             <Text style={Styles.TextParagraph}>
-              Therefore, the compound return for this investment over 5 years is
-              12.6%. This means that the investment grew by an average of 12.6%
-              per year over the 5-year period, without considering any dividends
-              or other earnings.
+              Pertanto, il rendimento composto di questo investimento in 5 anni
+              è del 12.6%. Ciò significa che l'investimento è cresciuto in media
+              del 12,6% all'anno nel periodo di 5 anni, senza considerare i
+              dividendi o altri guadagni.
             </Text>
             <Text style={Styles.TextParagraph}>
-              If you press the button below you will be able to calculate
-              compound interest:
+              Se si preme il pulsante qui sotto si potrà calcolare l'interesse
+              composto:
             </Text>
           </View>
 
           <Button
-            title="compound interest calculator"
+            title="Calcolatore rendimento composto"
             x
             onPress={() =>
               Alert.alert("Send to compound interest calculator page")
@@ -96,7 +99,7 @@ export default function Theory({ navigation }) {
           />
         </View>
 
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
+        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz5")} />
       </ScrollView>
     </SafeAreaView>
   );

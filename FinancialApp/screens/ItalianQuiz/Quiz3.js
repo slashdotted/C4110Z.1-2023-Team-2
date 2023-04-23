@@ -6,14 +6,14 @@ const questions = [
   {
     id: 1,
     question:
-      "Which of the following changes requires a form to be filed with your tax return?",
+      "Quali dei seguenti cambiamenti richiede che venga compilato un modulo da allegare alla tua dichiarazione dei redditi?",
     answers: [
-      "Changed your name",
-      "Moved residence",
-      "Major change in income",
-      "All of the above",
+      "Hai cambiato il tuo nome",
+      "Ti sei trasferito di residenza",
+      "Hai avuto una variazione significativa del reddito",
+      "Tutte le precedenti",
     ],
-    correctAnswer: "All of the above",
+    correctAnswer: "Tutte le precedenti",
   },
   {
     id: 2,

@@ -11,7 +11,13 @@ import {
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Styles from "../assets/styles/Theory";
-import Quiz from "./Quiz";
+
+import Quiz1 from "./ItalianQuiz/Quiz1";
+import Quiz2 from "./ItalianQuiz/Quiz2";
+import Quiz3 from "./ItalianQuiz/Quiz3";
+import Quiz4 from "./ItalianQuiz/Quiz4";
+import Quiz5 from "./ItalianQuiz/Quiz5";
+
 import Theory1 from "./ItalianTheory/1Ita";
 import Theory2 from "./ItalianTheory/2Ita";
 import Theory3 from "./ItalianTheory/3Ita";
@@ -24,7 +30,11 @@ export default function TheoryMenu() {
   return (
     <Stack.Navigator initialRouteName="TheoryPage">
       <Stack.Screen name="TheoryPage" component={Theory} />
-      <Stack.Screen name="Quiz" component={Quiz} />
+      <Stack.Screen name="Quiz1" component={Quiz1} />
+      <Stack.Screen name="Quiz2" component={Quiz2} />
+      <Stack.Screen name="Quiz3" component={Quiz3} />
+      <Stack.Screen name="Quiz4" component={Quiz4} />
+      <Stack.Screen name="Quiz5" component={Quiz5} />
       <Stack.Screen name="Theory1" component={Theory1} />
       <Stack.Screen name="Theory2" component={Theory2} />
       <Stack.Screen name="Theory3" component={Theory3} />
