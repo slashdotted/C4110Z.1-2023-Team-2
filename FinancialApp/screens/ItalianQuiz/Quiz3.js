@@ -18,48 +18,49 @@ const questions = [
   {
     id: 2,
     question:
-      "For a simple, hassle-free tax filing experience, I’m better off choosing:",
-    answers: ["Standard deduction", "Itemized deduction"],
-    correctAnswer: "Standard deduction",
+      "Per un'esperienza di dichiarazione dei redditi semplice e senza problemi, è meglio scegliere:",
+    answers: ["La detrazione standard", "La detrazione dettagliata"],
+    correctAnswer: "La detrazione standard",
   },
   {
     id: 3,
     question:
-      "If I’ve saved bills and receipts throughout the year, and I want to work to save as much money as possible, I’m better off choosing:  ",
-    answers: ["Standard deduction", "Itemized deduction"],
-    correctAnswer: "Itemized deduction",
+      "Se ho conservato bollette e ricevute durante l'anno e voglio risparmiare il più possibile, è meglio scegliere:",
+    answers: ["La detrazione standard", "La detrazione dettagliata"],
+    correctAnswer: "La detrazione dettagliata",
   },
   {
     id: 4,
-    question: "What should I do if I qualify for multiple filing statuses?",
+    question:
+      "Cosa dovrei fare se posso qualificarmi per più di uno stato fiscale?",
     answers: [
-      "Pick whichever one is less complicated on the forms",
-      "Calculate your deduction for each status and choose the lowest one",
+      "Scegli quello meno complicato nei moduli",
+      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
     ],
     correctAnswer:
-      "Calculate your deduction for each status and choose the lowest one",
+      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
   },
   {
     id: 5,
     question:
-      "If I received a bill from the government after my taxes have been filed, what should I do for next year?",
+      "Se ho ricevuto una fattura dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
     answers: [
-      "Withhold less from my income",
-      "Withhold more from my income",
-      "Continue to withhold the same amount",
+      "Trattenere meno dal mio reddito",
+      "Trattenere di più dal mio reddito",
+      "Continuare a trattenere lo stesso importo",
     ],
-    correctAnswer: "Withhold more from my income",
+    correctAnswer: "Trattenere di più dal mio reddito",
   },
   {
     id: 6,
     question:
-      "If I received a refund from the government after my taxes have been filed, what should I do for next year?",
+      "Se ho ricevuto un rimborso dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
     answers: [
-      "Withhold less from my income",
-      "Withhold more from my income",
-      "Continue to withhold the same amount",
+      "Trattenere meno dal mio reddito",
+      "Trattenere di più dal mio reddito",
+      "Continuare a trattenere lo stesso importo",
     ],
-    correctAnswer: "Withhold less from my income",
+    correctAnswer: "Trattenere meno dal mio reddito",
   },
 ];
 
@@ -86,14 +87,14 @@ const Quiz = () => {
   if (showResult) {
     return (
       <View style={Styles.container}>
-        <Text style={Styles.title}>You scored: {score} points</Text>
+        <Text style={Styles.title}>Hai totalizzato: {score} punti</Text>
       </View>
     );
   }
 
   return (
     <View style={Styles.container}>
-      <Text style={Styles.title}>Question {currentQuestion + 1}:</Text>
+      <Text style={Styles.title}>Domanda {currentQuestion + 1}:</Text>
       <Text style={Styles.question}>{questions[currentQuestion].question}</Text>
       {questions[currentQuestion].answers.map((answer, index) => (
         <TouchableOpacity
