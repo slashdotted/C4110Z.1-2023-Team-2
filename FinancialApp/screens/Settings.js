@@ -1,4 +1,4 @@
-import { Text, SafeAreaView, View } from "react-native";
+import { Text, SafeAreaView, View, TouchableOpacity } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import WhoWeAre from "./WhoWeAre";
 import DevelopmentEnvironment from "./DevelopmentEnvironment";
