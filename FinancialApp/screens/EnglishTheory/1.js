@@ -123,7 +123,7 @@ export default function Theory({ navigation }) {
               of when they can be bought or sold. You can purchase mutual funds
               and ETFs from nearly any brokerage firm.
             </Text>
-            <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
+            <Button title="QUIZ" onPress={() => navigation.navigate("Quiz1")} />
           </View>
         </View>
       </ScrollView>

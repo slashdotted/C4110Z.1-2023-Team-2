@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 const questions = [
   {
     id: 1,
-    question: "1 Qual è l'animale nazionale dell'Australia?",
+    question: "4 Qual è l'animale nazionale dell'Australia?",
     answers: ["Koala", "Canguro", "Wombat"],
     correctAnswer: "Canguro",
   },

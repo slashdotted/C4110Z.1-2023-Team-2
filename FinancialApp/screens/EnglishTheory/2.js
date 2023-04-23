@@ -110,7 +110,7 @@ export default function Theory({ navigation }) {
           </Text>
         </View>
 
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
+        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz2")} />
       </ScrollView>
     </SafeAreaView>
   );

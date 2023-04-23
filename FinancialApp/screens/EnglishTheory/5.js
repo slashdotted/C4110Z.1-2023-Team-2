@@ -97,7 +97,7 @@ export default function Theory({ navigation }) {
           />
         </View>
 
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz")} />
+        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz5")} />
       </ScrollView>
     </SafeAreaView>
   );

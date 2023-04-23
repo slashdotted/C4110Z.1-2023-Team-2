@@ -5,6 +5,7 @@ import {
   SafeAreaView,
   Button,
   ScrollView,
+  TouchableOpacity,
 } from "react-native";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -13,6 +14,7 @@ import HomeSettings from "./Settings";
 import Theory from "./Theory";
 import TheoryItalian from "./TheoryItalian";
 import CompoundReturn from "./CompoundReturn";
+import { Feather } from "@expo/vector-icons";
 
 const Stack = createNativeStackNavigator();
 
@@ -35,15 +37,14 @@ function HomePage({ navigation }) {
   return (
     <ScrollView>
       <SafeAreaView style={Styles.Layout}>
-        <View style={{ alignItems: "flex-end" }}>
-          <Button
-            title="Settings"
-            color="#00CCCC"
-            style={Styles.SettingButton}
-            onPress={() => navigation.navigate("HomeSettings")}
-          ></Button>
-        </View>
-
+        <TouchableOpacity
+          style={{ alignItems: "flex-end", marginRight: 10 }}
+          onPress={() => navigation.navigate("HomeSettings")}
+        >
+          <View style={Styles.button}>
+            <Feather name="settings" size={24} color="white" />
+          </View>
+        </TouchableOpacity>
         <View style={Styles.ContainerPhoto}>
           <Image
             source={require("../assets/OpesName.png")}
