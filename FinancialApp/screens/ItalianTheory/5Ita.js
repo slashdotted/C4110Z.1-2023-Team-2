@@ -93,13 +93,9 @@ export default function Theory({ navigation }) {
           <Button
             title="Calcolatore rendimento composto"
             x
-            onPress={() =>
-              Alert.alert("Send to compound interest calculator page")
-            }
+            onPress={() => navigation.navigate("CompoundReturnIta")}
           />
         </View>
-
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz5")} />
       </ScrollView>
     </SafeAreaView>
   );

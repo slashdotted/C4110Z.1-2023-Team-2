@@ -24,6 +24,8 @@ import Theory3 from "./ItalianTheory/3Ita";
 import Theory4 from "./ItalianTheory/4Ita";
 import Theory5 from "./ItalianTheory/5Ita";
 
+import CompoundReturnIta from "./CompoundReturnIta";
+
 const Stack = createNativeStackNavigator();
 
 export default function TheoryMenu() {
@@ -40,6 +42,7 @@ export default function TheoryMenu() {
       <Stack.Screen name="Theory3" component={Theory3} />
       <Stack.Screen name="Theory4" component={Theory4} />
       <Stack.Screen name="Theory5" component={Theory5} />
+      <Stack.Screen name="CompoundReturnIta" component={CompoundReturnIta} />
     </Stack.Navigator>
   );
 }

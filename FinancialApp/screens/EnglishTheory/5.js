@@ -9,7 +9,6 @@ import {
 } from "react-native";
 
 import Styles from "../../assets/styles/Theory";
-import CompoundReturn from "../CompoundReturn";
 
 export default function Theory({ navigation }) {
   return (
@@ -90,14 +89,9 @@ export default function Theory({ navigation }) {
 
           <Button
             title="compound interest calculator"
-            x
-            onPress={() =>
-              Alert.alert("Send to compound interest calculator page")
-            }
+            onPress={() => navigation.navigate("CompoundReturn")}
           />
         </View>
-
-        <Button title="QUIZ" onPress={() => navigation.navigate("Quiz5")} />
       </ScrollView>
     </SafeAreaView>
   );

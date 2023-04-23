@@ -2,7 +2,6 @@ import { StyleSheet, StatusBar, Platform } from "react-native";
 
 export default StyleSheet.create({
   Layout: {
-    flex: 1,
     backgroundColor: "white",
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     flexDirection: "column",
@@ -47,13 +46,19 @@ export default StyleSheet.create({
     height: 200,
     alignContent: "center",
     justifyContent: "center",
-    marginTop: 50,
-    marginBottom: 80,
+    marginTop: 120,
+    marginBottom: 20,
     alignItems: "center",
     marginLeft: 100,
   },
 
   SettingButton: {
+    position: "relative",
+    top: 0,
+    right: 0,
+  },
+
+  LastButton: {
     position: "relative",
     top: 0,
     right: 0,
@@ -74,5 +79,6 @@ export default StyleSheet.create({
     width: 50,
     alignItems: "center",
     justifyContent: "center",
+    marginTop: 14,
   },
 });

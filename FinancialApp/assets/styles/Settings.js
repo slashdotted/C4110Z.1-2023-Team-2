@@ -10,11 +10,20 @@ export default StyleSheet.create({
   },
 
   Text: {
-    marginTop: 10,
     top: "50%",
     fontSize: 24,
     color: "#00CCCC",
     fontStyle: "italic",
+  },
+
+  Container: {
+    marginTop: 30,
+    borderColor: "#00CCCC",
+    borderWidth: 4,
+    width: 250,
+    height: 240,
+    marginBottom: 30,
+    alignItems: "center",
   },
 
   button: {
@@ -24,5 +33,25 @@ export default StyleSheet.create({
     width: 50,
     alignItems: "center",
     justifyContent: "center",
+  },
+
+  logoProfile: {
+    width: 80,
+    height: 80,
+    borderRadius: "10",
+    marginTop: 10,
+  },
+
+  textInput: {
+    marginTop: 3,
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 6,
+    borderWidth: 1,
+    borderColor: "#00CCCC",
+  },
+
+  ContainerTextInput: {
+    alignItems: "center",
   },
 });

@@ -24,6 +24,8 @@ import Theory3 from "./EnglishTheory/3";
 import Theory4 from "./EnglishTheory/4";
 import Theory5 from "./EnglishTheory/5";
 
+import CompoundReturn from "./CompoundReturn";
+
 const Stack = createNativeStackNavigator();
 
 export default function TheoryMenu() {
@@ -40,6 +42,7 @@ export default function TheoryMenu() {
       <Stack.Screen name="Theory3" component={Theory3} />
       <Stack.Screen name="Theory4" component={Theory4} />
       <Stack.Screen name="Theory5" component={Theory5} />
+      <Stack.Screen name="CompoundReturn" component={CompoundReturn} />
     </Stack.Navigator>
   );
 }

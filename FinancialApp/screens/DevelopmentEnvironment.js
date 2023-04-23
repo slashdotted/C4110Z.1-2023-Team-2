@@ -4,28 +4,26 @@ import Styles from "../assets/styles/DevelopmentEnvironment";
 
 export default function WhoWeAre({ navigation }) {
   return (
-    <ScrollView>
-      <SafeAreaView>
-        <View style={Styles.Container}>
-          <Text style={Styles.boldText}> Logos of the apps that we used:</Text>
-          <Image
-            source={require("../assets/reactNative.png")}
-            style={Styles.GroupPhoto}
-          />
-          <Image
-            source={require("../assets/visualStudio.png")}
-            style={Styles.visualStudio}
-          />
-          <Image
-            source={require("../assets/gitHub.png")}
-            style={Styles.GroupPhoto}
-          />
-          <Image
-            source={require("../assets/expoGo.png")}
-            style={Styles.GroupPhoto}
-          />
-        </View>
-      </SafeAreaView>
-    </ScrollView>
+    <SafeAreaView>
+      <View style={Styles.Container}>
+        <Text style={Styles.boldText}> Logos of the apps that we used:</Text>
+        <Image
+          source={require("../assets/reactNative.png")}
+          style={Styles.GroupPhoto}
+        />
+        <Image
+          source={require("../assets/visualStudio.png")}
+          style={Styles.visualStudio}
+        />
+        <Image
+          source={require("../assets/gitHub.png")}
+          style={Styles.GroupPhoto}
+        />
+        <Image
+          source={require("../assets/expoGo.png")}
+          style={Styles.GroupPhoto}
+        />
+      </View>
+    </SafeAreaView>
   );
 }
