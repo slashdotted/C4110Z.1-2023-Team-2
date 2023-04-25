@@ -5,21 +5,41 @@ import Styles from "../../assets/styles/Quiz";
 const questions = [
   {
     id: 1,
-    question: 'Chi ha scritto il romanzo "Il nome della rosa"?',
-    answers: ["cuai García Márquez", "Umberto Eco", "Italo Calvino"],
-    correctAnswer: "Umberto Eco",
+    question: "An individual should base their budget off their net income. ",
+    answers: ["True", "False"],
+    correctAnswer: "True",
   },
   {
     id: 2,
-    question: 'Chi ha scritto il romanzo "Il nome della rosa"?',
-    answers: ["Gabriel García Márquez", "Umberto Eco", "Italo Calvino"],
-    correctAnswer: "Umberto Eco",
+    question: "One example of a fixed expense is: ",
+    answers: ["Gas expenses", "Groceries", "Mortgage", "Concert tickets"],
+    correctAnswer: "Mortgage",
   },
   {
     id: 3,
-    question: "Qual è la più grande isola del Mediterraneo?",
-    answers: ["Sicilia", "Cipro", "Sardegna"],
-    correctAnswer: "Sicilia",
+    question:
+      "What is the first category of expenses a person should start reducing if they are over budget?",
+    answers: ["Variable", "Fixed", "Pricey", "None of the above"],
+    correctAnswer: "Variable",
+  },
+  {
+    id: 4,
+    question:
+      "According to the 50/30/20 rule, an individual should allocate 30% of their earnings to necessities.",
+    answers: ["True", "False"],
+    correctAnswer: "False",
+  },
+  {
+    id: 5,
+    question:
+      "What course of action should an individual take if they cannot reduce their variable expenses any further, yet they are still over budget?",
+    answers: [
+      "Alter fixed expenses",
+      "Completely get rid of variable expenses",
+      "Do not worry about it, the budget will take care of itself",
+      "Increase your income",
+    ],
+    correctAnswer: "Alter fixed expenses",
   },
 ];
 
