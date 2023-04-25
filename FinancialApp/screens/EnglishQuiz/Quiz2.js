@@ -6,7 +6,7 @@ const questions = [
   {
     id: 1,
     question: 'Chi ha scritto il romanzo "Il nome della rosa"?',
-    answers: ["Gabriel García Márquez", "Umberto Eco", "Italo Calvino"],
+    answers: ["cuai García Márquez", "Umberto Eco", "Italo Calvino"],
     correctAnswer: "Umberto Eco",
   },
   {
