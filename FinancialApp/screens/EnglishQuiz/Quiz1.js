@@ -5,21 +5,38 @@ import Styles from "../../assets/styles/Quiz";
 const questions = [
   {
     id: 1,
-    question: 'Chi ha scritto il romanzo "Il nome della rosa"?',
-    answers: ["Gabriel García Márquez", "Umberto Eco", "Italo Calvino"],
-    correctAnswer: "Umberto Eco",
+    question: "What is not a type of investment?",
+    answers: ["Stocks", "Real Estate", "Bonds", "Cash"],
+    correctAnswer: "Cash",
   },
   {
     id: 2,
-    question: 'Chi ha scritto il romanzo "Il nome della rosa"?',
-    answers: ["Gabriel García Márquez", "Umberto Eco", "Italo Calvino"],
-    correctAnswer: "Umberto Eco",
+    question: "Who can purchase a stock for you?",
+    answers: ["Banks", "Brokerage Companies", "Accountants", "Lawyers"],
+    correctAnswer: "Brokerage Companies",
   },
   {
     id: 3,
-    question: "Qual è la più grande isola del Mediterraneo?",
-    answers: ["Sicilia", "Cipro", "Sardegna"],
-    correctAnswer: "Sicilia",
+    question: "What is the most common investment?",
+    answers: ["Real Estate (a home)", "Stocks", "Bonds", "ETFs / Mutual Funds"],
+    correctAnswer: "Real Estate (a home)",
+  },
+  {
+    id: 4,
+    question: "What happens when a portfolio becomes diversified?",
+    answers: [
+      "Lower maximum profit",
+      "Increase maximum profit",
+      "Lower risk",
+      "Increase risk",
+    ],
+    correctAnswer: "Lower risk",
+  },
+  {
+    id: 5,
+    question: "Which investment does not have an expense ratio?",
+    answers: ["ETFs", "Stocks", "Mutual Funds", "None of the above"],
+    correctAnswer: "Stocks",
   },
 ];
 
@@ -46,7 +63,7 @@ const Quiz = () => {
   if (showResult) {
     return (
       <View style={Styles.container}>
-        <Text style={Styles.title}>Hai totalizzato: {score} punti</Text>
+        <Text style={Styles.title}>Your scored: {score} points</Text>
       </View>
     );
   }

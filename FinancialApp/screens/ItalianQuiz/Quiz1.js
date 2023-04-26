@@ -5,62 +5,53 @@ import Styles from "../../assets/styles/Quiz";
 const questions = [
   {
     id: 1,
-    question:
-      "Quali dei seguenti cambiamenti richiede che venga compilato un modulo da allegare alla tua dichiarazione dei redditi?",
-    answers: [
-      "Hai cambiato il tuo nome",
-      "Ti sei trasferito di residenza",
-      "Hai avuto una variazione significativa del reddito",
-      "Tutte le precedenti",
-    ],
-    correctAnswer: "Tutte le precedenti",
+    question: "Che cosa non è un tipo di investimento?",
+    answers: ["Azioni", "Immobili", "Obbligazioni", "Contanti"],
+    correctAnswer: "Contanti",
   },
   {
     id: 2,
-    question:
-      "Per un'esperienza di dichiarazione dei redditi semplice e senza problemi, è meglio scegliere:",
-    answers: ["La detrazione standard", "La detrazione dettagliata"],
-    correctAnswer: "La detrazione standard",
+    question: "Chi può acquistare un'azione per voi?",
+    answers: [
+      "Banche",
+      "Società di intermediazione",
+      "Commercialisti",
+      "Avvocati",
+    ],
+    correctAnswer: "Società di intermediazione",
   },
   {
     id: 3,
-    question:
-      "Se ho conservato bollette e ricevute durante l'anno e voglio risparmiare il più possibile, è meglio scegliere:",
-    answers: ["La detrazione standard", "La detrazione dettagliata"],
-    correctAnswer: "La detrazione dettagliata",
+    question: "Qual'è l'investimento più comune?",
+    answers: [
+      "Beni immobili (una casa)",
+      "Le azioni",
+      "Obbligazioni",
+      "Etf / Fondi comuni di investimento",
+    ],
+    correctAnswer: "Beni immobili (una casa)",
   },
   {
     id: 4,
-    question:
-      "Cosa dovrei fare se posso qualificarmi per più di uno stato fiscale?",
+    question: "Cosa succede quando un portafoglio è ben diversificato?",
     answers: [
-      "Scegli quello meno complicato nei moduli",
-      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
+      "Profitto massimo più basso",
+      "Aumentare il profitto massimo",
+      "Rischio inferiore",
+      "Aumento del rischio",
     ],
-    correctAnswer:
-      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
+    correctAnswer: "Rischio inferiore",
   },
   {
     id: 5,
-    question:
-      "Se ho ricevuto una fattura dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
+    question: "Quale investimento non ha un rapporto di spesa?",
     answers: [
-      "Trattenere meno dal mio reddito",
-      "Trattenere di più dal mio reddito",
-      "Continuare a trattenere lo stesso importo",
+      "ETF",
+      "Fondi comuni di investimento",
+      "Le azioni",
+      "Nessuna delle precedenti",
     ],
-    correctAnswer: "Trattenere di più dal mio reddito",
-  },
-  {
-    id: 6,
-    question:
-      "Se ho ricevuto un rimborso dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
-    answers: [
-      "Trattenere meno dal mio reddito",
-      "Trattenere di più dal mio reddito",
-      "Continuare a trattenere lo stesso importo",
-    ],
-    correctAnswer: "Trattenere meno dal mio reddito",
+    correctAnswer: "Le azioni",
   },
 ];
 

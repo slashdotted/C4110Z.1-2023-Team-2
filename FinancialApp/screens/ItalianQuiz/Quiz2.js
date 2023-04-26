@@ -6,61 +6,46 @@ const questions = [
   {
     id: 1,
     question:
-      "Quali dei seguenti cambiamenti richiede che venga compilato un modulo da allegare alla tua dichiarazione dei redditi?",
-    answers: [
-      "Hai cambiato il tuo nome",
-      "Ti sei trasferito di residenza",
-      "Hai avuto una variazione significativa del reddito",
-      "Tutte le precedenti",
-    ],
-    correctAnswer: "Tutte le precedenti",
+      "Un individuo dovrebbe basare il proprio budget sul proprio reddito netto?",
+    answers: ["Vero", "Falso"],
+    correctAnswer: "Vero",
   },
   {
     id: 2,
-    question:
-      "Per un'esperienza di dichiarazione dei redditi semplice e senza problemi, è meglio scegliere:",
-    answers: ["La detrazione standard", "La detrazione dettagliata"],
-    correctAnswer: "La detrazione standard",
+    question: "Un esempio di spesa fissa è?",
+    answers: [
+      "Spesa per la benzina",
+      "I generi alimentari",
+      "Mutuo",
+      "Biglietti per i concerti",
+    ],
+    correctAnswer: "Mutuo",
   },
   {
     id: 3,
     question:
-      "Se ho conservato bollette e ricevute durante l'anno e voglio risparmiare il più possibile, è meglio scegliere:",
-    answers: ["La detrazione standard", "La detrazione dettagliata"],
-    correctAnswer: "La detrazione dettagliata",
+      "Qual è la prima categoria di spese che una persona dovrebbe iniziare a ridurre se ha sforato il budget?",
+    answers: ["Variabile", "Fisso", "Costose", "Nessuna delle precedenti"],
+    correctAnswer: "Variabile",
   },
   {
     id: 4,
     question:
-      "Cosa dovrei fare se posso qualificarmi per più di uno stato fiscale?",
-    answers: [
-      "Scegli quello meno complicato nei moduli",
-      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
-    ],
-    correctAnswer:
-      "Calcola la tua detrazione per ogni stato e scegli la più bassa",
+      "Secondo la regola 50/30/20, una persona dovrebbe destinare il 30% dei propri guadagni ai beni di prima necessità?",
+    answers: ["Vero", "Falso"],
+    correctAnswer: "False",
   },
   {
     id: 5,
     question:
-      "Se ho ricevuto una fattura dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
+      "Quale linea d'azione dovrebbe seguire un individuo che non può ridurre ulteriormente le spese variabili, ma che è ancora fuori budget?",
     answers: [
-      "Trattenere meno dal mio reddito",
-      "Trattenere di più dal mio reddito",
-      "Continuare a trattenere lo stesso importo",
+      "Modificare le spese fisse",
+      "Eliminare completamente le spese variabili",
+      "Non preoccuparsi, il budget si prenderà cura di se stesso",
+      "Aumentare le entrate",
     ],
-    correctAnswer: "Trattenere di più dal mio reddito",
-  },
-  {
-    id: 6,
-    question:
-      "Se ho ricevuto un rimborso dal governo dopo aver presentato la mia dichiarazione dei redditi, cosa dovrei fare per l'anno prossimo?",
-    answers: [
-      "Trattenere meno dal mio reddito",
-      "Trattenere di più dal mio reddito",
-      "Continuare a trattenere lo stesso importo",
-    ],
-    correctAnswer: "Trattenere meno dal mio reddito",
+    correctAnswer: "Modificare le spese fisse",
   },
 ];
 
