@@ -67,7 +67,7 @@ const Quiz = () => {
   if (showResult) {
     return (
       <View style={Styles.container}>
-        <Text style={Styles.title}>Hai totalizzato: {score} punti</Text>
+        <Text style={Styles.title}>Your scored: {score} points</Text>
       </View>
     );
   }
